@@ -9,13 +9,13 @@
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 50px;
+    height: 60px;
     background-color: #4887BD;
     align-items: center;
 }
 
 #logoSmall {
-    padding-left: 20px;
+    padding: 3px 0 0 20px;
 }
 
 #menu {
