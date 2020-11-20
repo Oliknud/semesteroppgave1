@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    background-color: #4887BD;
+    align-items: center;
+}
+
+#logoSmall {
+    padding-left: 20px;
+}
+
+#menu {
+    float: right;
+    padding-right: 20px;
+}
+
+#background {
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4887BD;
+    height: 100px;
+}
+
+.indexCopy {
+    margin: 40px 0;
+}
+
+.indexCopy p {
+    width: 80%;
+    margin: 40px auto;
+}
+
