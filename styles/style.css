@@ -48,6 +48,22 @@ header {
     padding-right: 20px;
 }
 
+#burgerLinks {
+    display: none;
+    flex-direction: column;
+    background-color: rgb(92, 92, 92);
+}
+
+#active {
+    background-color: #29498A;
+}
+
+#burgerLinks>a {
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+}
+
 footer {
     display: flex;
     flex-direction: column;

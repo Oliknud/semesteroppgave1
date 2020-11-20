@@ -4,13 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="styles/style.css" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="styles/style.css" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap" rel="stylesheet">
+    <script src="menu.js"></script>
 </head>
 <body> 
     <header>
         <a href="index.html"><img src="img/logo.png" alt="small logo" id="logoSmall"></a>
-        <a href="#"><img src="img/burgerMenu.png" alt="burger menu" id="menu"></a>
+        <a href="javascript:void(0);" class="menu" onclick="menuFunction()"><img src="img/burgerMenu.png" alt="burger menu" id="menu"></a>
     </header>
+    <div id="burgerLinks">
+        <a href="index.html">Home</a>
+        <a href="explore.html">Explore</a> 
+        <a href="exhibition.html">Exhibitions</a> 
+        <a href="#" id="active">Information</a> 
+        <a href="getInvolved.html">Get involved</a>
+    </div>
     <main>
         <h1>Information</h1>
         <div class="copy">
