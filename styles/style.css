@@ -75,10 +75,14 @@ footer {
     margin-top: 50px;
 }
 
+#logoBig {
+    display: none;
+}
+
 /* Index */
 
 #indexImg {
-    width: 100vw;
+    width: 100%;
     margin-bottom: 40px;
 }
 
@@ -87,27 +91,108 @@ footer {
     margin: 10px auto;
 }
 
-.indexButtons {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    margin-top: 40px;
-}
-
-.button {
-    font-size: 20px;
-    color: white;
-    background-color: #70BDDA;
-    width: 150px;
-    margin: 10px 0;
-    padding: 10px 20px;
-    border-radius: 4px;
-}
-
 .mobileImg {
     display: block;
     width: 80%;
     margin: 20px auto;
 }
 
+.headerNav {
+    display: none;
+}
+
+.exSpaces {
+    display: none;
+}
+
+@media (min-width: 550px) {
+
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        background-color: #4887BD;
+        justify-content: space-between;
+        align-items: inherit;
+    }
+
+    #logoSmall {
+        padding: 10px 0 0 20px;
+    }
+
+    .headerNav {
+        display: block;
+        padding: 20px 5px;
+    }
+
+    #indexImg {
+        display: none;
+    }
+
+    #logoBig {
+        display: block;
+        width: 100%;
+    }
+
+    .copy p {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .indexButtons {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .button {
+        font-size: 20px;
+        color: white;
+        background-color: #70BDDA;
+        width: 150px;
+        height: 20px;
+        margin: 10px 0;
+        padding: 10px 10px;
+        border-radius: 4px;
+        text-align: center;
+    }
+
+    .exSpaces {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin: 50px 0 0 0;
+        padding: 50px;
+        height: 600px;
+        background-color: #F3F3F3;
+        text-align: center;
+    }
+
+    #indexFig {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    h2 {
+        width: 80%;
+        margin: 0 auto 50px auto;
+    }
+
+    figure img{
+        width: 200px;
+        padding: 0 20px;
+    }
+
+    footer {
+        margin-top: 0px;
+    }
+
+    .copy {
+        margin: 50px 0;
+    }
+}

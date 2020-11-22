@@ -10,6 +10,11 @@
 <body> 
     <header>
         <a href="#"><img src="img/logo.png" alt="small logo" id="logoSmall"></a>
+        <a href="#" id="active" class="headerNav">Home</a>
+        <a href="explore.html" class="headerNav">Explore</a>
+        <a href="exhibition.html" class="headerNav">Exhibitions</a>
+        <a href="info.html" class="headerNav">Information</a>
+        <a href="getInvolved.html" class="headerNav">Get involved</a>
         <a href="javascript:void(0);" class="menu" onclick="menuFunction()"><img src="img/burgerMenu.png" alt="burger menu" id="menu"></a>
     </header>
     <div id="burgerLinks">
@@ -20,7 +25,8 @@
         <a href="getInvolved.html">Get involved</a>
     </div>
     <main>
-        <img src="img/indexNew.png" alt="" id="indexImg">
+        <img src="img/indexNew.png" alt="Image of person with vr headset" id="indexImg">
+        <img src="img/logoBig.png" alt="" id="logoBig">
         <div class="copy">
             <p>Come join us at the Community Science Museum where we’re
                 committed to making science accessible to all.
@@ -34,11 +40,36 @@
                 world around us.
             </p>
         </div>
-        <!-- <div class="indexButtons">
-            <a href="exhibition.html" class="button">Exhibitions</a>
+        <div class="indexButtons">
+            
             <a href="explore.html" class="button">Explore</a>
-            <a href="info.html" class="button">Learn more</a>
-        </div> -->
+            <!-- <a href="info.html" class="button">Learn more</a> -->
+        </div>
+        <div class="exSpaces">
+            <h2>exhibition spaces</h2>
+            <div id="indexFig">
+                <figure>
+                    <img src="img/space.png" alt="">
+                    <figcaption>Cosmology</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/ai.png" alt="">
+                    <figcaption>Robotics and AI</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/heart.png" alt="">
+                    <figcaption>Biology and Medicine</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="img/evo.png" alt="">
+                    <figcaption>Evolution</figcaption>
+                </figure>
+            </div>
+                <a href="exhibition.html" class="button" id="viewMore">View more</a>
+        </div>
     </main>
     <footer>
         <a href="info.html"><p>Visit</p></a>
