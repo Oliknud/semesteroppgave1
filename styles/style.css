@@ -86,7 +86,7 @@ footer {
     margin-bottom: 40px;
 }
 
-.copy p {
+.copy p, .copyEx p  {
     width: 80%;
     margin: 10px auto;
 }
@@ -114,17 +114,28 @@ footer {
     header {
         display: flex;
         background-color: #4887BD;
-        justify-content: space-between;
         align-items: inherit;
     }
 
+    nav {
+        display: flex;
+        justify-content: space-between;
+        width: 80%;
+        margin: 0 auto;
+        
+    }
+
     #logoSmall {
-        padding: 10px 0 0 20px;
+        padding: 12px 0 0 0;
     }
 
     .headerNav {
         display: block;
-        padding: 20px 5px;
+        padding: 20px 20px;
+    }
+
+    .headerNav:hover {
+        background-color: #386892;
     }
 
     #indexImg {
@@ -134,18 +145,13 @@ footer {
     #logoBig {
         display: block;
         width: 100%;
+        max-width: 1920px;
+        margin: 0 auto;
     }
 
-    .copy p {
+    .copy>p {
         width: 80%;
         margin: 20px auto;
-    }
-
-    .indexButtons {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
     }
     
     .button {
@@ -155,7 +161,7 @@ footer {
         width: 150px;
         height: 20px;
         margin: 10px 0;
-        padding: 10px 10px;
+        padding: 10px 10px 15px 10px;
         border-radius: 4px;
         text-align: center;
     }
@@ -166,7 +172,6 @@ footer {
         align-items: center;
         justify-content: space-around;
         margin: 50px 0 0 0;
-        padding: 50px;
         height: 600px;
         background-color: #F3F3F3;
         text-align: center;
@@ -174,18 +179,26 @@ footer {
 
     #indexFig {
         display: flex;
-        justify-content: center;
         flex-wrap: wrap;
-    }
-
-    h2 {
+        justify-content: center;
         width: 80%;
-        margin: 0 auto 50px auto;
     }
 
     figure img{
         width: 200px;
-        padding: 0 20px;
+    }
+
+    figure {
+        margin: 20px;
+    }
+
+    h1 {
+        margin: 50px 0 0 0;
+    }
+
+    h2 {
+        width: 80%;
+        margin: 30px auto;
     }
 
     footer {
@@ -193,6 +206,66 @@ footer {
     }
 
     .copy {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 50px;
+    }
+
+    .mobileImg {
+        max-width: 600px;
+        margin: 20px 0;
+    }
+
+    .exhibition {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
         margin: 50px 0;
+        align-items: center;
+    }
+    
+    .copyEx {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .exhibition p {
+        margin: 0px;
+        max-width: 600px;
+    }
+
+    .exhibition h2 {
+        margin: 30px 0;
+        max-width: 600px;
+    }
+}
+
+@media (min-width: 1400px) {
+
+    .exhibition h2 {
+        max-width: 400px;
+    }
+
+    figure img {
+        width: 250px;
+    }
+
+    .exhibition {
+        display: inline-block;
+        height: 500px;
+    }
+
+    .mobileImg {
+        float: right;
+        margin: 0 0 0 50px;
+    }
+}
+
+@media (max-width: 640px){
+
+    .exSpaces {
+        display: none;
     }
 }
