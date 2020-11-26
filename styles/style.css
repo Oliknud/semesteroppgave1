@@ -98,6 +98,10 @@ footer {
     overflow: hidden;
 }
 
+.mobileLogo h1, h2 {
+    margin: 10px 0;
+}
+
 #whiteLogo {
     width: 220px;
     height: 200px;
