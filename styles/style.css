@@ -74,7 +74,7 @@ footer {
     background-color: #4887BD;
     height: 100px;
     color: white;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .mobileHero {
@@ -82,7 +82,7 @@ footer {
     height: 90vh;
     width: 100%;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
     color: white;
 }
 
@@ -122,7 +122,7 @@ footer {
     z-index: -1;
 }
 
-.copy p, .copyEx p  {
+.copy p, .copyEx p, .copyIndex p  {
     width: 80%;
     margin: 10px auto;
 }
@@ -131,6 +131,10 @@ footer {
     display: block;
     width: 80%;
     margin: 20px auto;
+}
+
+.copySpace {
+    margin: 100px 0 0 0;
 }
 
 .headerNav {
@@ -204,7 +208,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* justify-content: space-evenly; */
         width: 100%;
         height: 90%;
         position: absolute;
@@ -227,7 +230,7 @@ footer {
         margin-top: 200px;
     }
 
-    .copy>p {
+    .copy>p, .copyIndex>p {
         width: 80%;
         margin: 20px auto;
     }
@@ -254,6 +257,10 @@ footer {
         height: 600px;
         background-color: #F3F3F3;
         text-align: center;
+    }
+
+    .exSpaces h1 {
+        margin-top: 90px;
     }
 
     #indexFig {
@@ -288,11 +295,17 @@ footer {
     .copy {
         display: flex;
         flex-direction: column;
-        margin: 75px 0 100px 0;
+        margin: 75px 0 150px 0;
+    }
+
+    .copyIndex {
+        display: flex;
+        flex-direction: column;
+        margin: 100px 0;
     }
 
     .mobileImg {
-        max-width: 600px;
+        max-width: 500px;
         margin: 20px 0;
     }
 
@@ -320,9 +333,7 @@ footer {
         max-width: 600px;
     }
 
-    .copySpace {
-        margin: 100px 0 0 0;
-    }
+    
 }
 
 @media (min-width: 1400px) {
