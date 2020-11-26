@@ -79,9 +79,8 @@ footer {
 
 .mobileHero {
     display: flex;
-    height: 800px;
+    height: 100vh;
     width: 100%;
-    
     text-align: center;
     margin-bottom: 40px;
     color: white;
@@ -92,24 +91,25 @@ footer {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 90%;
+    height: 100vh;
     position: absolute;
-    justify-content: space-evenly;
+    justify-content: space-around;
     overflow: hidden;
 }
 
 .mobileLogo h1, h2 {
-    margin: 10px 0;
+    margin: 0;
 }
 
 #whiteLogo {
     width: 220px;
     height: 200px;
-    margin: 30px 0;
+    margin: 30px 0 0 0;
 }
 
 #whitearrow {
     width: 40px;
+    margin-bottom: 30px;
 }
 
 .mobileBg {
