@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
 
 * {
@@ -78,13 +77,46 @@ footer {
     margin-top: 50px;
 }
 
-#logoBig {
-    display: none;
+.mobileHero {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    
+    text-align: center;
+    margin-bottom: 40px;
+    color: white;
 }
 
-#indexImg {
+.mobileLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    margin-bottom: 40px;
+    height: 90%;
+    position: absolute;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+#whiteLogo {
+    width: 220px;
+    height: 200px;
+    margin: 30px 0;
+}
+
+#whitearrow {
+    width: 40px;
+}
+
+.mobileBg {
+    background-image: url(../img/mobileBg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    opacity: .9;
+    position: relative;
+    z-index: -1;
 }
 
 .copy p, .copyEx p  {
@@ -106,9 +138,13 @@ footer {
     display: none;
 }
 
+.hero {
+    display: none;
+}
+
 @media (min-width: 810px) {
 
-    #menu {
+    #menu, .mobileHero {
         display: none;
     }
 
@@ -143,11 +179,48 @@ footer {
         display: none;
     }
 
-    #logoBig {
-        display: block;
+    .hero {
+        display: flex;
+        height: 900px;
         width: 100%;
-        max-width: 1920px;
-        margin: 0 auto;
+        text-align: center;
+    }
+
+    .heroBg {
+        background-image: url(../img/desktopImg.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        opacity: .3;
+        width: 100%;
+        position: relative;
+        z-index: -1;
+    }
+
+    .heroLogo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 90%;
+        position: absolute;
+        overflow: hidden;
+    }
+
+    .heroLogo h1 {
+        margin: 30px 0;
+    }
+
+    #bigLogo {
+        width: 220px;
+        height: 200px;
+        margin: 30px 0;
+    }
+
+    #blackarrow {
+        width: 40px;
+        
     }
 
     .copy>p {
@@ -161,7 +234,7 @@ footer {
         background-color: #70BDDA;
         width: 150px;
         height: 20px;
-        margin: 10px 0;
+        margin: 10px auto;
         padding: 10px 10px 15px 10px;
         border-radius: 4px;
         text-align: center;
@@ -184,6 +257,7 @@ footer {
         flex-wrap: wrap;
         justify-content: center;
         width: 80%;
+        margin-top: 50px;
     }
 
     figure img{
@@ -210,7 +284,6 @@ footer {
     .copy {
         display: flex;
         flex-direction: column;
-        align-items: center;
         margin: 75px 0 100px 0;
     }
 
@@ -241,6 +314,10 @@ footer {
     .exhibition h2 {
         margin: 30px 0;
         max-width: 600px;
+    }
+
+    .copySpace {
+        margin: 100px 0 0 0;
     }
 }
 
