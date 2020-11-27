@@ -276,7 +276,7 @@ footer {
     }
 
     figure {
-        margin: 20px 40px;
+        margin: 20px 30px;
     }
 
     h1 {
@@ -390,7 +390,7 @@ footer {
     }
 }
 
-@media (max-width: 1670px) {
+@media (max-width: 1567px) {
 
     #indexFig {
         width: 700px;
