@@ -72,9 +72,8 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: #4887BD;
-    height: 100px;
     color: white;
-    /* margin-top: 80px; */
+    text-align: center;
 }
 
 .exhibition {
@@ -166,6 +165,10 @@ footer {
     display: none;
 }
 
+.button {
+    display: none;
+}
+
 @media (min-width: 810px) {
 
     #menu, .mobileHero {
@@ -253,6 +256,7 @@ footer {
     }
     
     .button {
+        display: initial;
         font-size: 20px;
         color: white;
         background-color: #70BDDA;
@@ -307,7 +311,17 @@ footer {
     }
 
     footer {
-        margin-top: 0px;
+        height: 80px;
+    }
+
+    .links {
+        display: flex;
+        width: 300px;
+        justify-content: space-evenly;
+    }
+
+    #grey {
+        color: lightgrey;
     }
 
     .copyIndex {
