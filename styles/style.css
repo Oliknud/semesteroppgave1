@@ -33,19 +33,30 @@ h1 {
 
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
     height: 60px;
     background-color: #4887BD;
     align-items: center;
 }
 
-#svg {
-    width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+.svgg {
+    height: auto;
+    width: 100%;
+}
+
+.svgRev{
+    transform: rotate(180deg);
+    position: relative;
+    bottom: -10px;
+}
+
+.headerH1 {
+    margin: 0;
 }
 
 #logoSmall {
     width: 40px;
-    padding: 3px 0 0 20px;
+    margin: 3px 0 0 20px;
 }
 
 #menu {
@@ -149,7 +160,7 @@ footer {
 }
 
 .dark {
-    background-color: #F3F3F3;
+    background-color: #d6d6d6;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -175,7 +186,7 @@ footer {
 
 @media (min-width: 810px) {
 
-    #menu, .mobileHero {
+    #menu, .mobileHero, .svgg {
         display: none;
     }
 
