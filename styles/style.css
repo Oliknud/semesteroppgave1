@@ -140,7 +140,7 @@ footer {
 }
 
 .mobileBg {
-    background-image: url(../img/mobileBg.png);
+    background-image: url(../img/mobilebg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -243,7 +243,7 @@ footer {
     }
 
     .heroBg {
-        background-image: url(../img/desktopImg.png);
+        background-image: url(../img/desktopImg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
