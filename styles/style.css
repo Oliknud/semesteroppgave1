@@ -73,7 +73,7 @@ header {
 #burgerLinks {
     display: none;
     flex-direction: column;
-    margin-top: 22px;
+    margin-top: 20px;
     background-color: rgb(92, 92, 92);
 }
 
