@@ -200,7 +200,7 @@ footer {
 
 @media (min-width: 834px) {
 
-    #menu, .mobileHero, .svgg {
+    #menu, .mobileHero, .svgg, #burgerLinks {
         display: none;
     }
 
