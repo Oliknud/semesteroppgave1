@@ -73,7 +73,7 @@ header {
 #burgerLinks {
     display: none;
     flex-direction: column;
-    margin-top: 18px;
+    margin-top: 15px;
     background-color: rgb(92, 92, 92);
 }
 
@@ -471,6 +471,8 @@ footer {
         margin: 0 0 0 50px;
         width: 500px;
     }
+
+    
 }
 
 @media (max-width: 1567px) {
@@ -478,11 +480,30 @@ footer {
     #indexFig {
         width: 700px;
     }
+    
+    .exhibition {
+        margin-bottom: 60px;
+    }
+
+    
 }
 
 @media (max-width: 640px){
 
     .exSpaces {
         display: none;
+    }
+
+}
+
+@media (min-width: 600px) {
+    #burgerLinks {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 834px) {
+    #burgerLinks {
+        display: none !important;
     }
 }
